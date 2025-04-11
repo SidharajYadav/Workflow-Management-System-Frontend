@@ -8,7 +8,7 @@ import WorkflowEditor from "./pages/workflows/WorkflowEditor";
 import LoginPage from "./pages/auth/LoginPage";
 import SignupPage from "./pages/auth/SignupPage";
 
-function App() {
+function App() { 
   return (
     <Routes>
       <Route path="/login" element={<LoginPage />} />
