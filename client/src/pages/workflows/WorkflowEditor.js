@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useAuth } from "@clerk/clerk-react";
+import { useAuth } from "@clerk/clerk-react"; 
 import ReactFlow, {
   Background,
   Controls,
