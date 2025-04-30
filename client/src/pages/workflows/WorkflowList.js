@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useAuth } from "@clerk/clerk-react";
 import api from "../../services/api";
 
-const WorkflowList = () => {
+const WorkflowList = () => { 
   const { getToken } = useAuth();
   const [workflows, setWorkflows] = useState([]);
   const [loading, setLoading] = useState(true);
