@@ -7,7 +7,7 @@ const WorkflowList = () => {
   const { getToken } = useAuth();
   const [workflows, setWorkflows] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState(""); 
 
   useEffect(() => {
     const fetchWorkflows = async () => {
