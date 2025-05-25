@@ -6,7 +6,7 @@ import Dashboard from "./pages/dashboard/Dashboard";
 import WorkflowList from "./pages/workflows/WorkflowList";
 import WorkflowEditor from "./pages/workflows/WorkflowEditor";
 import LoginPage from "./pages/auth/LoginPage";
-import SignupPage from "./pages/auth/SignupPage"; 
+import SignupPage from "./pages/auth/SignupPage";  
  
 function App() { 
   return (
