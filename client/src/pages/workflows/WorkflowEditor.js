@@ -15,7 +15,7 @@ import CustomNode from "../../components/workflow/CustomNode";
 const nodeTypes = {
   custom: CustomNode,
 };
-
+ 
 const WorkflowEditor = () => {
   const { id } = useParams();
   const navigate = useNavigate();
